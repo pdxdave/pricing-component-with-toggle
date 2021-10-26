@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h2>Our Pricing</h2>
+    <div class="grid">
+      <p class="annually active">Annually</p>
+      <div class="toggle">
+        <div class="toggle-switch" onclick="activate()"></div>
+      </div>
+      <p class="monthly">Monthly</p>
+    </div> <!-- end of grid -->
+  </header>
+
+  <div class="cards">
+
+
+
+    <div class="card basic-card">
+      <p class="card__title basic-title">Basic</p>
+      <div class="price__content">
+        <span class="price__symbol basic-symbol">&dollar;</span>
+        <h1 class="price__value price-basic">199.99</h1>
+      </div>
+      <p class="storage ">500 GB Storage</p>
+      <p class="users ">2 Users Allowed</p>
+      <p class="limit ">Send up to 3 GB</p>
+      <button class="btn basic-btn">Learn More</button>
+    </div>
+
+
+    <div class="card professional-card">
+      <p class="card__title professional-title">Professional</p>
+      <div class="price__content">
+        <span class="price__symbol professional-symbol">&dollar;</span>
+        <h1 class="price__value price-professional">249.99</h1>
+      </div>
+      <p class=" professional-storage">1 TB Storage</p>
+      <p class=" professional-users">5 Users Allowed</p>
+      <p class=" professional-limit">Send up to 10 GB</p>
+      <button class="btn professional-btn">Learn More</button>
+    </div>
+
+    <div class="card master-card">
+      <p class="card__title master-title">Master</p>
+      <div class="price__content">
+        <span class="price__symbol master-symbol">&dollar;</span>
+        <h1 class="price__value price-master">399.99</h1>
+      </div>
+      <p class="storage">2 TB Storage</p>
+      <p class="users">10 Users Allowed</p>
+      <p class="limit">Send up to 20 GB</p>
+      <button class="btn master-btn">Learn More</button>
+    </div>
+
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">David Martinson</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
